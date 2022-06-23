@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: keycloak
 generators:
 - secrets/keycloak.yaml
+- secrets/tls.yaml
