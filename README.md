@@ -2,12 +2,12 @@
 
 ## declare vars and create directory structure and files
 ```zsh
-addon=argo-cd
+addon=loki-distributed
 cluster=kind
-namespace=argocd
-secrets=(argocd-notifications-secret argocd-secret grafana-secret)
+namespace=loki
+secrets=(bucket-s3)
 
-mkdir -p cluster-addons/$addon/overlays/$cluster-{dev,prod}
+mkdir -p cluster-addons/$addon/overlays/$cluster-{dev,prod}/secrets
 touch cluster-addons/$addon/overlays/$cluster-{dev,prod}/kustomization.yaml
 for s in $secrets; do touch cluster-addons/$addon/overlays/$cluster-{dev,prod}/secrets/${s}.yaml; done
 
