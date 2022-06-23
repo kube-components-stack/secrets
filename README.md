@@ -2,9 +2,9 @@
 
 ## declare vars and create directory structure and files
 ```zsh
-addon=loki-distributed
+addon=minio
 cluster=kind
-namespace=loki
+namespace=minio
 secrets=(bucket-s3)
 
 mkdir -p cluster-addons/$addon/overlays/$cluster-{dev,prod}/secrets
