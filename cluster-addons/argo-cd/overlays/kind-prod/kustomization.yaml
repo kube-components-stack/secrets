@@ -5,3 +5,4 @@ generators:
 - secrets/argocd-notifications-secret.yaml
 - secrets/argocd-secret.yaml
 - secrets/grafana-secret.yaml
+- secrets/keycloak-ca.yaml
