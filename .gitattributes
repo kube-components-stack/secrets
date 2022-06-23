@@ -1,3 +1,4 @@
 *.key filter=git-crypt diff=git-crypt
 clusters/** filter=git-crypt diff=git-crypt
 *.secret filter=git-crypt diff=git-crypt
+**/secrets/** filter=git-crypt diff=git-crypt
