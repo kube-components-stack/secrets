@@ -4,3 +4,4 @@ namespace: keycloak
 generators:
 - secrets/keycloak.yaml
 - secrets/keycloak-ca.yaml
+- secrets/keycloak-config.yaml
