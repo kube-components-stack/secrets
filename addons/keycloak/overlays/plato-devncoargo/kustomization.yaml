@@ -5,3 +5,4 @@ generators:
 - secrets/keycloak.yaml
 - secrets/keycloak-ca.yaml
 - secrets/keycloak-config.yaml
+- secrets/keycloak-postgresql.yaml
